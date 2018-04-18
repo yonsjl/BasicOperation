@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NewBasicOperation_Example' do
+  pod 'NewBasicOperation', :path => '../'
+
+  target 'NewBasicOperation_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
